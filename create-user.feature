@@ -1,7 +1,7 @@
 Feature: Create User
 
   @OG-4 @WIP @MANUAL
-  Scenario: Add User
+  Scenario: Open the form of creating a user
     Given Settings Users
     When Press batton <Add user>
     And Press batton <Save>
