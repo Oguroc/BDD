@@ -1,5 +1,5 @@
 Feature: Create User
 
-  @ORPHAN @MANUAL
+  @OG-4 @WIP @MANUAL
   Scenario: Add User
     Given Settings Users
