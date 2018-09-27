@@ -6,7 +6,7 @@ Feature:  Installation
     When Перейти в пунк меню Настройки
     Then Отображается страница Настройки
 
-  @ORPHAN @MANUAL
+  @OG-6 @WIP @MANUAL
   Scenario: Изменение Лого
     Given Пользователь (не админ) залогинен в системе
     And Открыта страница Настройки
