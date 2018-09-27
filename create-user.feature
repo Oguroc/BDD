@@ -2,7 +2,6 @@ Feature: Create User
 
   @OG-4 @WIP @MANUAL
   Scenario: Открытие формы создания пользователя 
-    Given Settings Users
-    When Press batton <Add user>
-    And Press batton <Save>
-    Then Open the form of creating a user
+    Given Пользователь (админ) залогинен в системе 
+    When Настройки/Пользователи нажать на кнопку <Добавить пользователя>
+    Then Открыта форма Добавить пользователя
