@@ -1,6 +1,6 @@
 Feature:  Installation
 
-  @ORPHAN @MANUAL
+  @OG-6 @WIP @MANUAL
   Scenario: Отображение пунтка меню Настройки
     Given Пользователь (не админ) залогинен в системе 
     When Перейти в пунк меню Настройки
