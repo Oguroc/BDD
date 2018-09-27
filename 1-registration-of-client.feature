@@ -6,7 +6,7 @@ Feature: Registration of client
     When Press batton registration
     Then Go to page start of registration
 
-  @OG-1 @WIP
+  @OG-1 @WIP @MANUAL
   Scenario: Получение SMS кода
     Given Страница начала регистрации 
     And Указан валидный номер телефона
