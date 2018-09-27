@@ -5,4 +5,4 @@ Feature: Create User
     Given Settings Users
     When Press batton <Add user>
     And Press batton <Save>
-    Then 
+    Then Open the form of creating a user
