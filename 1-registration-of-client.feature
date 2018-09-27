@@ -1,6 +1,6 @@
 Feature: Registration of client
 
-  @ORPHAN
+  @OG-5 @OPEN
   Scenario: Go to start registration
     Given Starting page of application
     When Press batton registration
