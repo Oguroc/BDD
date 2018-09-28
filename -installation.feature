@@ -1,12 +1,12 @@
 Feature:  Installation
 
-  @OG-6 @WIP @MANUAL
+  @OG-6 @COMPLETED @MANUAL
   Scenario: Отображение пунтка меню Настройки
     Given Пользователь (не админ) залогинен в системе 
     When Перейти в пунк меню Настройки
     Then Отображается страница Настройки
 
-  @OG-6 @WIP @MANUAL
+  @OG-6 @COMPLETED @MANUAL
   Scenario: Изменение Лого
     Given Пользователь (не админ) залогинен в системе
     And Открыта страница Настройки
