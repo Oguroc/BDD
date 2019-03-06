@@ -6,13 +6,20 @@ Feature: Registration of client
     When Press batton registration
     Then Go to page start of registration
 
-  @OG-1 @OPEN @MANUAL
+  @ORPHAN @OG-1 @MANUAL
   Scenario: Получение SMS кода
-    Given Страница начала регистрации 
+    Given Страница начала регистрации
     And Указан валидный номер телефона
     When Нажать на кнопку <Получить код>
     Then Вызван сервис создания и отправки SMS кода
     And Переход к Шагу подтверждения мобильного телефона
     And Страница не перезагружается
-    And Рядом с кнопкой Выслать еще раз отображается таймер 
+    And Рядом с кнопкой Выслать еще раз отображается таймер
     And Кнопка Выслать еще раз заблокирована пока действует таймер
+
+  @ORPHAN
+  Scenario: Получение м-код
+    Given Страница начала регистрации
+    When Стра
+    Then 
+    And 
