@@ -17,7 +17,7 @@ Feature: Registration of client
     And Рядом с кнопкой Выслать еще раз отображается таймер
     And Кнопка Выслать еще раз заблокирована пока действует таймер
 
-  @LKDO-1 @OPEN
+  @LKDO-1 @OPEN @MANUAL
   Scenario: Получение м-код
     Given Страница начала регистрации
     When Стра
