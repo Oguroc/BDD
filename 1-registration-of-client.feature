@@ -1,6 +1,6 @@
 Feature: Registration of client
 
-  @ORPHAN @MANUAL
+  @LKDO-1 @OPEN @MANUAL
   Scenario: Go to start registration
     Given Starting page of application
     When Press batton registration
